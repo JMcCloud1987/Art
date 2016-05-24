@@ -1,0 +1,184 @@
+
+body { background-color:#000000; color: #eee; }
+
+#container {
+	background-color: #EEEEEE; 
+}
+.inset {
+	width: 90%;
+	min-width: 320px; 
+	max-width: 1200px;
+	/*padding: 10px; */
+	margin: auto;
+	color: #333;
+}
+
+header 	{ background-color: #000000;  }
+nav 	{ background-color: #FF0000; padding: 10px; }
+#main 	{ background-color: #FFFFFF; padding: 5px; }
+footer 	{ background-color: #000000; padding: 10px; height: 1px; margin-top: 21px; }
+footer .copy{color: white; margin-left: 12px;}
+h1{font-family: 'Oswald'; sans-serif; color: #FFFFFF; font-size: 30px; margin-left: 15px; background-color: black;}
+p {color:#000000; text-align: left; font-size: 18px; font-family: 'Oswald', sans-serif; }
+p2 {color:#000000; text-align: left; font-size: 10px; font-family: 'Oswald', sans-serif; }
+/*-------------------------------------
+| header and footer
+-------------------------------------*/
+header .inset {
+	line-height: 200px;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: #000000;
+}
+footer .inset {
+	line-height: 2px;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: #000000;
+
+}
+/*-------------------------------------
+| nav
+-------------------------------------*/
+nav#mainmenu { text-align: center;
+				font-family: 'Oswald', sans-serif;
+				color: #FFFFFF;
+
+ }
+nav#mainmenu a {
+	display: inline-block;
+	width: 95px; 
+	line-height: 40px; 
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	color: #000000;
+
+}
+nav#mainmenu a:hover { background-color: #DFF5A3; color: #fff; text-decoration: none;font-family: 'Oswald', sans-serif; }
+nav#mainmenu a.chosen { background-color: #87C3C8;  color: #000; font-family: 'Oswald', sans-serif;}
+
+/*-------------------------------------
+| hamburger
+-------------------------------------*/
+nav#mainmenu .glyphicon-menu-hamburger { 
+	color: #E49191;
+	font-size: 40px;
+	padding: 5px;
+	font-family: 'Oswald', sans-serif;
+	color: #FFFFFF;
+}
+nav#mainmenu .menu  { display: none; }
+
+@media screen and (min-width:320px) {
+	nav#mainmenu .glyphicon-menu-hamburger {  display: none; }
+	nav#mainmenu .menu  { display: block; }
+}
+
+/*-------------------------------------
+| Pinned Navigation
+-------------------------------------*/
+.pinned nav#mainmenu {
+	position: fixed;
+	left: 0px; 
+	right: 0px; 
+	top: 0px; 
+
+	z-index: 9000;
+}
+/*hold the space for the nav once its positioned. */
+.pinned header { margin-bottom: 70px; }
+
+/*-------------------------------------
+| Main
+-------------------------------------*/
+#main section {
+	min-height: 350px;
+	max-width: 100%;
+	overflow: hidden;
+	background-color:#000000;
+}
+#main section:nth-of-type(even) { background-color: #000000; }
+
+/*-------------------------------------
+| 12 Column Grid
+-------------------------------------*/
+.row > div {
+	border: solid 1px #000000;
+	background-color: #FFFFFF;
+	min-height: 100px;
+	padding-top: 5px;
+}
+
+
+/*-------------------------------------
+| Responsive Images
+-------------------------------------*/
+img { max-width: 100%;
+	 }
+#sect3 img {width:400px;}
+
+
+#container img{ max-width: 100%;}
+#main article img{margin-left:5px; margin-top: 20px;}
+#main #sect1 img{ width:600px; height: auto; margin-left: 370px; margin-top: 10px;}
+#main #sect6 img{  height: 120px; width: 155px; margin: auto; }
+
+/*-------------------------------------
+| Aside
+-------------------------------------*/
+#main aside 	{padding: 1px; background-color: #FFFFFF; border: solid black 5px; }
+#main aside 	{width:60%; float:left; margin: auto;margin-left: 400px;}
+#sect3 #main aside 	{margin-top: -300px; margin-left:480px;}
+#sect3 #main aside p{margin-top: 5px;  padding: 18px;font-family: 'Oswald', sans-serif;}
+#sect4 #main aside p{ padding: 15px; font-size: 18px;font-family: 'Oswald', sans-serif; }
+#main #sect1{background-image: url(file:///G:/INTERACTIVE_MEDIA_3/WEEK7/Portfolio/img/Lightbox%20Text%20Effect.png) ; margin-top: -2px;   }
+#main #sect1 h1{background-color: black; color: white; border: solid black 20px; margin-top: -10px;}
+
+
+
+
+
+}
+.inset {
+	outline: solid 1px;
+	width: 120%;
+	min-width: 500px; 
+	max-width: 1400px;
+	/*padding: 10px; */
+	margin: auto;
+	margin-left: 100px;
+	color: #333;
+}
+/*-------------------------------------
+| 12 Column Grid
+-------------------------------------*/
+.row img {
+	border: solid 1px ;
+	background-color: #A0D2EE;
+	min-height:10px;
+	min-width: 10px;
+	
+	height: 200px;
+	width: 200px;
+	
+	color: white;
+	max-width: 100%;
+}
+
+img { width: 100%;
+	max-width: 100%; 
+	  height: auto;
+	   }
+	  .row h1 {margin-left:-10px; font-size: 18px;}
+
+
+/*-------------------------------------
+| Clearfix
+| http://nicolasgallagher.com/min-clearfix-hack/
+-------------------------------------*/
+.cf:before,.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
+
