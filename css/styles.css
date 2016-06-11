@@ -14,21 +14,21 @@ body { background-color:#000000; color: #eee; }
 }
 
 header 	{ background-color: #000000;  }
-<<<<<<< HEAD
+
 nav 	{ background-color: #991F1F; padding: 10px; }
 #main 	{ background-color: #FFFFFF; padding: 5px; }
 footer 	{ background-color: #000000; padding: 10px; height: 5px; }
 footer .copy{color: white; margin-left: 12px;}
 h1{font-family: 'Oswald'; sans-serif; color: #FFFFFF; font-size: 30px; margin-left: 15px;}
 p {color:#000000; text-align: left; font-size: 16px; font-family: 'Oswald', sans-serif; }
-=======
+
 nav 	{ background-color: #FF0000; padding: 10px; }
 #main 	{ background-color: #FFFFFF; padding: 5px; }
 footer 	{ background-color: #000000; padding: 10px; height: 1px; margin-top: 21px; }
 footer .copy{color: white; margin-left: 12px;}
 h1{font-family: 'Oswald'; sans-serif; color: #FFFFFF; font-size: 30px; margin-left: 15px; background-color: black;}
 p {color:#000000; text-align: left; font-size: 18px; font-family: 'Oswald', sans-serif; }
->>>>>>> 94158d317d1bf79e62606b7de6ea0c7fed136f35
+
 p2 {color:#000000; text-align: left; font-size: 10px; font-family: 'Oswald', sans-serif; }
 /*-------------------------------------
 | header and footer
@@ -41,19 +41,16 @@ header .inset {
 	color: #000000;
 }
 footer .inset {
-<<<<<<< HEAD
+
 	line-height: 100px;
-=======
+
 	line-height: 2px;
->>>>>>> 94158d317d1bf79e62606b7de6ea0c7fed136f35
+
 	font-size: 30px;
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
 	color: #000000;
-<<<<<<< HEAD
-=======
 
->>>>>>> 94158d317d1bf79e62606b7de6ea0c7fed136f35
 }
 /*-------------------------------------
 | nav
@@ -61,10 +58,7 @@ footer .inset {
 nav#mainmenu { text-align: center;
 				font-family: 'Oswald', sans-serif;
 				color: #FFFFFF;
-<<<<<<< HEAD
-=======
 
->>>>>>> 94158d317d1bf79e62606b7de6ea0c7fed136f35
  }
 nav#mainmenu a {
 	display: inline-block;
@@ -73,16 +67,16 @@ nav#mainmenu a {
 	border-radius: 5px;
 	background-color: #FFFFFF;
 	color: #000000;
-<<<<<<< HEAD
+
 }
 nav#mainmenu a:hover { background-color: #6ABE86; color: #fff; text-decoration: none;font-family: 'Oswald', sans-serif; }
 nav#mainmenu a.chosen { background-color: #73AD56;  color: #000; font-family: 'Oswald', sans-serif;}
-=======
+
 
 }
 nav#mainmenu a:hover { background-color: #DFF5A3; color: #fff; text-decoration: none;font-family: 'Oswald', sans-serif; }
 nav#mainmenu a.chosen { background-color: #87C3C8;  color: #000; font-family: 'Oswald', sans-serif;}
->>>>>>> 94158d317d1bf79e62606b7de6ea0c7fed136f35
+
 
 /*-------------------------------------
 | hamburger
@@ -96,11 +90,11 @@ nav#mainmenu .glyphicon-menu-hamburger {
 }
 nav#mainmenu .menu  { display: none; }
 
-<<<<<<< HEAD
+
 @media screen and (min-width:800px) {
-=======
+
 @media screen and (min-width:320px) {
->>>>>>> 94158d317d1bf79e62606b7de6ea0c7fed136f35
+
 	nav#mainmenu .glyphicon-menu-hamburger {  display: none; }
 	nav#mainmenu .menu  { display: block; }
 }
@@ -124,14 +118,14 @@ nav#mainmenu .menu  { display: none; }
 -------------------------------------*/
 #main section {
 	min-height: 350px;
-<<<<<<< HEAD
+
 	overflow: hidden;
 	background-color: #000000;
-=======
+
 	max-width: 100%;
 	overflow: hidden;
 	background-color:#000000;
->>>>>>> 94158d317d1bf79e62606b7de6ea0c7fed136f35
+
 }
 #main section:nth-of-type(even) { background-color: #000000; }
 
@@ -142,18 +136,18 @@ nav#mainmenu .menu  { display: none; }
 	border: solid 1px #000000;
 	background-color: #FFFFFF;
 	min-height: 100px;
-<<<<<<< HEAD
+
 	padding-top: 10px;
-=======
+
 	padding-top: 5px;
->>>>>>> 94158d317d1bf79e62606b7de6ea0c7fed136f35
+
 }
 
 
 /*-------------------------------------
 | Responsive Images
 -------------------------------------*/
-<<<<<<< HEAD
+
 img { width: 100%; }
 #sect3 img {width:400px;}
 
@@ -162,7 +156,7 @@ img { width: 100%; }
 #main article img{margin-left:20px; margin-top: 20px;}
 #main #sect1 img{ width:600px; background-color: white;margin-left: 370px; margin-top: -105px;}
 
-=======
+
 img { max-width: 100%;
 	 }
 #sect3 img {width:400px;}
@@ -172,20 +166,21 @@ img { max-width: 100%;
 #main article img{margin-left:5px; margin-top: 20px;}
 #main #sect1 img{ width:600px; height: auto; margin-left: 370px; margin-top: 10px;}
 #main #sect6 img{  height: 120px; width: 155px; margin: auto; }
->>>>>>> 94158d317d1bf79e62606b7de6ea0c7fed136f35
+#main #sect6 .inset{ margin-left: -25px;}
+
 
 /*-------------------------------------
 | Aside
 -------------------------------------*/
 #main aside 	{padding: 1px; background-color: #FFFFFF; border: solid black 5px; }
 #main aside 	{width:60%; float:left; margin: auto;margin-left: 400px;}
-<<<<<<< HEAD
+
 #sect3 #main aside 	{margin-top: -300px; margin-left: 430px;}
 #sect3 #main aside p{margin-top: -35px; padding: 18px;font-family: 'Oswald', sans-serif;}
 #sect4 #main aside p{ padding: 15px; font-size: 18px;font-family: 'Oswald', sans-serif; }
 #main #sect1{background-image: url(file:///G:/INTERACTIVE_MEDIA_3/WEEK7/McCloud_J_BootstrapFinal/img/black_background.jpg);}
 #main #sect1 h1{background-color: black; color: white; border: solid black 20px; margin-top: -10px;}
-=======
+
 #sect3 #main aside 	{margin-top: -300px; margin-left:480px;}
 #sect3 #main aside p{margin-top: 5px;  padding: 18px;font-family: 'Oswald', sans-serif;}
 #sect4 #main aside p{ padding: 15px; font-size: 18px;font-family: 'Oswald', sans-serif; }
@@ -196,7 +191,7 @@ img { max-width: 100%;
 
 
 
->>>>>>> 94158d317d1bf79e62606b7de6ea0c7fed136f35
+
 }
 .inset {
 	outline: solid 1px;
@@ -212,11 +207,11 @@ img { max-width: 100%;
 | 12 Column Grid
 -------------------------------------*/
 .row img {
-<<<<<<< HEAD
+
 	border: solid 3px ;
-=======
+
 	border: solid 1px ;
->>>>>>> 94158d317d1bf79e62606b7de6ea0c7fed136f35
+
 	background-color: #A0D2EE;
 	min-height:10px;
 	min-width: 10px;
@@ -225,23 +220,18 @@ img { max-width: 100%;
 	width: 200px;
 	
 	color: white;
-<<<<<<< HEAD
+
 }
 
 img { width: 100%; 
 	  height: auto;
 	   }
-	  .row h1 {margin-left:-10px;}
-=======
+	  .row h1 {margin-left:-10px;
+
 	max-width: 100%;
+	font-size: 18px;
 }
 
-img { width: 100%;
-	max-width: 100%; 
-	  height: auto;
-	   }
-	  .row h1 {margin-left:-10px; font-size: 18px;}
->>>>>>> 94158d317d1bf79e62606b7de6ea0c7fed136f35
 
 
 /*-------------------------------------
@@ -255,7 +245,7 @@ img { width: 100%;
 .cf:before,.cf:after { content: " "; display: table; }
 .cf:after { clear: both; }
 .cf { *zoom: 1; }
-<<<<<<< HEAD
+
 @media all and (max-width: 1024px){
 }
 @media all and (max-width: 960px){
@@ -264,6 +254,4 @@ img { width: 100%;
 }
 @media all and (max-width: 320px){
 }
-=======
 
->>>>>>> 94158d317d1bf79e62606b7de6ea0c7fed136f35
