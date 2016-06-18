@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id        = "com.jasmine.mccloud"
+		versionCode="1"
+		version   = "1.0">
+		<name>Jasmine's App</name>
+		<description>
+			A sample app for Up and Running with PhoneGap Build		
+		</description>
+		<author href="chrisgriffith.wordpress.com" email="chris.griffith@gmail.com">
+			Jasmine 
+		</author>
+		<author email="dev@cordova.apache.org" href="http://cordova.io">
+        	Apache Cordova Team 
+    	</author>
+
+    	<plugin name="nl.x-services.plugins.socialsharing" spec="4.3.8" source="pgb" /
+	</widget>
