@@ -4,19 +4,16 @@
 		id        = "com.jasmine.mccloud"
 		versionCode="1"
 		version   = "1.0">
-		<name>Happiness App</name>
+		<name>Jasmine's App</name>
 		<description>
 			A sample app for Up and Running with PhoneGap Build		
 		</description>
 		<author href="chrisgriffith.wordpress.com" email="chris.griffith@gmail.com">
-			Chris Griffith
+			Jasmine 
 		</author>
 		<author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team 
-    </author>
-		<gap:plugin name="org.apache.cordova.file" />
-		<plugin name="cordova plugin add cc.fovea.cordova.purchase" spec="1" />
-		 <plugin name="org.apache.cordova.splashscreen" spec="1.0.0" source="pgb" />
-		<plugin name="org.apache.cordova.camera" spec="0.3.6" source="pgb" />
+        	Apache Cordova Team 
+    	</author>
 
+    	<plugin name="nl.x-services.plugins.socialsharing" spec="4.3.8" source="pgb" /
 	</widget>
